@@ -1,11 +1,17 @@
-# tools-google-suggest
+# Objective
+### Clone following websites
+- https://answerthepublic.com/
+- https://h-supertools.com/seo/question-explorer
+
+### Module 1 - API
+Develope a API which would accept inputs from user with keywords and return the output in JSON with multiple suggested keywords as demo below;
+
+### Module 2 - Web APP
+Develope an web app which would call API from webiste, allow user to input keywords and display results in answerthepublic.com or question-explorer
+
 
 
 Using API - Get maximum options from google-suggest
-
-Example Website
-- https://answerthepublic.com/
-- https://h-supertools.com/seo/question-explorer
 
 One Video
 - https://www.youtube.com/watch?v=ofZEo0Rzo5s
