@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+	   <head>
+			<title> hello</title>
+	   </head>
+	   
+	   <body>
+               <form method="get" action="" target="_blank" id="myForm">
+                      Enter your name: <input type="text" name="name" id="txtName">
+		              <input type="submit" id="submit" value="Submit">
+                  </form>
+
+                     <script>
+                     document.getElementById('submit').oncick = function() {
+                     var val = document.getElementById('txtName').value;
+                      window.open('http://google.com?q=' + encodeURIComponent(val));
+                     return false;
+	                 }
+	                 </script>
+	
+	  </body>
+	
+</html>
+
